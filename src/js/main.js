@@ -191,3 +191,10 @@ svg.addEventListener('click', function(){
 cross.addEventListener('click', function(){
   tooglePop()
 })
+var nav = document.getElementById('nav');
+var open = document.getElementById('open');
+
+open.addEventListener('click', function() {
+  console.log(open)
+  nav.classList.toggle('is-open');
+});

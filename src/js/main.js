@@ -175,3 +175,19 @@ function onYouTubeIframeAPIReady() {
   event.initEvent('youtube-api-ready', true, true);
   window.dispatchEvent(event);
 }
+let cross = document.querySelector('.cross')
+let pop = document.querySelector('.pop')
+let svg = document.querySelector('svg')
+
+
+function tooglePop() {
+    pop.classList.toggle('invisible')
+}
+
+svg.addEventListener('click', function(){
+  tooglePop()
+})
+
+cross.addEventListener('click', function(){
+  tooglePop()
+})

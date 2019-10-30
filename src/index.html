@@ -10,6 +10,12 @@
   <script defer src="js/main.js"></script>
 </head>
 <body>
+  <div class="pop invisible">
+    <div class="container">
+      <iframe class='video' src="https://www.youtube.com/embed/-oTa18J7SNA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="cross">X</div>
+    </div>
+  </div>
   <header><img src="../src/images/logo_ace-gbs.png" alt="">
     <ul>
       <a href="https://www.ace-gs.com/systemes-dimpression/ " target="_blank"><li>Document Solutions</li></a>
@@ -26,130 +32,207 @@
       <div class="slider-wrapper">
         DÉCOUVREZ NOTRE PACK POUR
         <div class="slider">
-            <div class="slider-text1">BOOSTER VOS RÉUNIONS</div>
-            <div class="slider-text2">DYNAMISER VOS RÉUNIONS</div>
-            <div class="slider-text3">PROPULSER VOS RÉUNIONS</div>
-          </div>
+          <div class="slider-text1">BOOSTER VOS RÉUNIONS</div>
+          <div class="slider-text2">DYNAMISER VOS RÉUNIONS</div>
+          <div class="slider-text3">PROPULSER VOS RÉUNIONS</div>
+        </div>
       </div>
-     
+      
       <img class="banner" src="./images/main.png" alt="">
     </div>
-      <div class="main">
-        <section class="caroussel-offer">
-          <h3>NOUS ALLONS PLUS LOIN <br> <span> POUR VOUS</span></h3>
-          <div class="advantage-carrousel" id="advantage-caroussel">
-            
-            <input type="radio" name="select-advantage" id="advantage-1" checked value="0">
-            <div class="advantage-carrousel__item" data-id="label-1">
-              <label class="thumb" for="advantage-1">
-                <img src="./images/Annotations.png">
-              </label>
-              <input type="checkbox" id="advantage-00" class="toggle-advantage">
-            </div>
-            
-            <input type="radio" name="select-advantage" id="advantage-2" value="2">
-            <div class="advantage-carrousel__item"  data-id="label-2">
-              <label class="thumb" for="advantage-2">
-                <img src="./images/CompteRendu.png">
-              </label>
-              <input type="checkbox" id="advantage-11" class="toggle-advantage">
-            </div>
-            
-            <input type="radio" name="select-advantage" id="advantage-3" value="3">
-            <div class="advantage-carrousel__item" data-id="label-3">
-              <label class="thumb" for="advantage-3">
-                <img src="./images/MessageriInst.png">
-              </label>
-              <input type="checkbox" id="advantage-22" class="toggle-advantage">
-            </div>
-            
-            <input type="radio" name="select-advantage" id="advantage-4" value="4">
-            <div class="advantage-carrousel__item" data-id="label-4">
-              <label class="thumb" for="advantage-4">
-                <img src="./images/NotesFormes.png">
-              </label>
-              <input type="checkbox" id="advantage-33" class="toggle-advantage">
-            </div>
-            
-            <input type="radio" name="select-advantage" id="advantage-5" value="5">
-            <div class="advantage-carrousel__item" data-id="label-5">
-              <label class="thumb" for="advantage-5">
-                <img src="./images/PartageDoc.png">
-              </label>
-            </div>
-            
-            <input type="radio" name="select-advantage" id="advantage-6" value="6">
-            <div class="advantage-carrousel__item" data-id="label-6">
-              <label class="thumb" for="advantage-6">
-                <img src="./images/PartageEcran.png">
-              </label>
-            </div>
-            
-            <input type="radio" name="select-advantage" id="advantage-7" value="7">
-            <div class="advantage-carrousel__item" data-id="label-7">
-              <label class="thumb" for="advantage-7">
-                <img src="./images/TableauBlanc.png">
-              </label>
-            </div>
-            
-            <input type="radio" name="select-advantage" id="advantage-8" value="8">
-            <div class="advantage-carrousel__item" data-id="label-8">
-              <label class="thumb" for="advantage-8">
-                <img src="./images/WebcamAudio.png">
-              </label>
-            </div>
-            
+    <div class="main">
+      <section class="caroussel-offer">
+        <h3>NOUS ALLONS PLUS LOIN <br> <span> POUR VOUS</span></h3>
+        <div class="advantage-carrousel" id="advantage-caroussel">
+          
+          <input type="radio" name="select-advantage" id="advantage-1" checked value="0">
+          <div class="advantage-carrousel__item" data-id="label-1">
+            <label class="thumb" for="advantage-1">
+              <img src="./images/Annotations.png">
+            </label>
+            <input type="checkbox" id="advantage-00" class="toggle-advantage">
           </div>
           
-          <div class="advantage-carousel-nav">
-            <ul class="unlist">
-              <li><label for="advantage-1" id="label-1"></label></li>
-              <li><label for="advantage-2" id="label-2"></label></li>
-              <li><label for="advantage-3" id="label-3"></label></li>
-              <li><label for="advantage-4" id="label-4"></label></li>
-              <li><label for="advantage-5" id="label-5"></label></li>
-              <li><label for="advantage-6" id="label-6"></label></li>
-              <li><label for="advantage-7" id="label-7"></label></li>
-              <li><label for="advantage-8" id="label-8"></label></li>
-            </ul>
-          </div>      
+          <input type="radio" name="select-advantage" id="advantage-2" value="2">
+          <div class="advantage-carrousel__item"  data-id="label-2">
+            <label class="thumb" for="advantage-2">
+              <img src="./images/CompteRendu.png">
+            </label>
+            <input type="checkbox" id="advantage-11" class="toggle-advantage">
+          </div>
+          
+          <input type="radio" name="select-advantage" id="advantage-3" value="3">
+          <div class="advantage-carrousel__item" data-id="label-3">
+            <label class="thumb" for="advantage-3">
+              <img src="./images/MessageriInst.png">
+            </label>
+            <input type="checkbox" id="advantage-22" class="toggle-advantage">
+          </div>
+          
+          <input type="radio" name="select-advantage" id="advantage-4" value="4">
+          <div class="advantage-carrousel__item" data-id="label-4">
+            <label class="thumb" for="advantage-4">
+              <img src="./images/NotesFormes.png">
+            </label>
+            <input type="checkbox" id="advantage-33" class="toggle-advantage">
+          </div>
+          
+          <input type="radio" name="select-advantage" id="advantage-5" value="5">
+          <div class="advantage-carrousel__item" data-id="label-5">
+            <label class="thumb" for="advantage-5">
+              <img src="./images/PartageDoc.png">
+            </label>
+          </div>
+          
+          <input type="radio" name="select-advantage" id="advantage-6" value="6">
+          <div class="advantage-carrousel__item" data-id="label-6">
+            <label class="thumb" for="advantage-6">
+              <img src="./images/PartageEcran.png">
+            </label>
+          </div>
+          
+          <input type="radio" name="select-advantage" id="advantage-7" value="7">
+          <div class="advantage-carrousel__item" data-id="label-7">
+            <label class="thumb" for="advantage-7">
+              <img src="./images/TableauBlanc.png">
+            </label>
+          </div>
+          
+          <input type="radio" name="select-advantage" id="advantage-8" value="8">
+          <div class="advantage-carrousel__item" data-id="label-8">
+            <label class="thumb" for="advantage-8">
+              <img src="./images/WebcamAudio.png">
+            </label>
+          </div>
+          
         </div>
-        <div class="container--third">
-            <p> <span>“</span>  Vous souhaitez simplifier les réunions avec vos collaborateurs en présentiel
-                comme à distance et améliorer leur efficacité ?
-                Nos équipes vous apportent une solution clé en main adaptée à votre utilisation
-                et à votre salle !</p>
-                <img src="./images/interaction.png" alt="">
-               
-        </div>
-        <div class="container--fourth">
-            <h3>En chiffres</h3>
-            <div>
-              <h4>3500  </h4>
-              <h5>Clients</h5>
-              <p>nous font confiances</p>
-            </div>
-            <div>
-                <h4> 5 </h4>
-                <h5> Appareils connectés</h5>
-                <p>transférez rapidement</p>
-              </div>
-              <div>
-                  <h4>25 </h4>
-                  <h5>Ans</h5>
-                  <p>d’expérience</p>
-                </div>
+        
+        <div class="advantage-carousel-nav">
+          <ul class="unlist">
+            <li><label for="advantage-1" id="label-1"></label></li>
+            <li><label for="advantage-2" id="label-2"></label></li>
+            <li><label for="advantage-3" id="label-3"></label></li>
+            <li><label for="advantage-4" id="label-4"></label></li>
+            <li><label for="advantage-5" id="label-5"></label></li>
+            <li><label for="advantage-6" id="label-6"></label></li>
+            <li><label for="advantage-7" id="label-7"></label></li>
+            <li><label for="advantage-8" id="label-8"></label></li>
+          </ul>
+        </div>      
+      </div>
+      <div class="container--third">
+        <p> <span>“</span>  Vous souhaitez simplifier les réunions avec vos collaborateurs en présentiel
+          comme à distance et améliorer leur efficacité ?
+          Nos équipes vous apportent une solution clé en main adaptée à votre utilisation
+          et à votre salle !</p>
+          <img src="./images/interaction.png" alt="">
+          
         </div>
         <div class="container--fifth">
-          <h3>Nous disposons d’une large gamme d’écrans & dispositifs interactifs.</h3>
-          <a href="https://www.youtube.com/embed/-oTa18J7SNA" target="_self"><svg height="50pt" viewBox="0 -77 512.00213 512" width="50pt" xmlns="http://www.w3.org/2000/svg"><path d="m501.453125 56.09375c-5.902344-21.933594-23.195313-39.222656-45.125-45.128906-40.066406-10.964844-200.332031-10.964844-200.332031-10.964844s-160.261719 0-200.328125 10.546875c-21.507813 5.902344-39.222657 23.617187-45.125 45.546875-10.542969 40.0625-10.542969 123.148438-10.542969 123.148438s0 83.503906 10.542969 123.148437c5.90625 21.929687 23.195312 39.222656 45.128906 45.128906 40.484375 10.964844 200.328125 10.964844 200.328125 10.964844s160.261719 0 200.328125-10.546875c21.933594-5.902344 39.222656-23.195312 45.128906-45.125 10.542969-40.066406 10.542969-123.148438 10.542969-123.148438s.421875-83.507812-10.546875-123.570312zm0 0" fill="#f00"/><path d="m204.96875 256 133.269531-76.757812-133.269531-76.757813zm0 0" fill="#fff"/></svg></a>
-          <!-- <iframe width="1000" height="500" src="https://www.youtube.com/embed/-oTa18J7SNA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+          <div>
+            <h3>Nous disposons d’une large gamme <br>d’écrans & dispositifs interactifs.</h3>
+            <p>ÉCRANS & PAPERBOARD DIGITAL + <br> LOGICIEL COLLABORATIF SIMPLE & SÉCURISÉ</p>
+            <a href="https://www.samsung.com/fr/business/smart-signage/interactive-display-wmh-series/lh55wmhptwcen/" target="_blank"><button>En savoir plus</button></a>
+          </div>
+          <svg class="cross" height="70pt" cursor="pointer" viewBox="0 -77 512.00213 512" width="70pt" xmlns="http://www.w3.org/2000/svg"><path d="m501.453125 56.09375c-5.902344-21.933594-23.195313-39.222656-45.125-45.128906-40.066406-10.964844-200.332031-10.964844-200.332031-10.964844s-160.261719 0-200.328125 10.546875c-21.507813 5.902344-39.222657 23.617187-45.125 45.546875-10.542969 40.0625-10.542969 123.148438-10.542969 123.148438s0 83.503906 10.542969 123.148437c5.90625 21.929687 23.195312 39.222656 45.128906 45.128906 40.484375 10.964844 200.328125 10.964844 200.328125 10.964844s160.261719 0 200.328125-10.546875c21.933594-5.902344 39.222656-23.195312 45.128906-45.125 10.542969-40.066406 10.542969-123.148438 10.542969-123.148438s.421875-83.507812-10.546875-123.570312zm0 0" fill="#f00"/><path d="m204.96875 256 133.269531-76.757812-133.269531-76.757813zm0 0" fill="#fff"/></svg>
         </div>
-        <div class="comments">
-          <img src="./images/pdg.jpg" alt="">
-          <p>“L'écriture est très naturelle et on comprend très vite comment changer de couleur ou effacer</p>
-          <h4>Michael Burke,  PDG de Louis Vuitton</h4>
+      </div>
+      <div class="container--fourth">
+        <h3>En chiffres</h3>
+        <div>
+          <h4>3500  </h4>
+          <h5>Clients</h5>
+          <p>nous font confiances</p>
         </div>
-      </main>
-    </body>
-    </html>
+        <div>
+          <h4> 5 </h4>
+          <h5> Appareils connectés</h5>
+          <p>transférez rapidement</p>
+        </div>
+        <div>
+          <h4>25 </h4>
+          <h5>Ans</h5>
+          <p>d’expérience</p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <section class="information">
+      <div>
+        <h3>Liens utiles</h3>
+        <hr class='lign'>
+        <ul>
+          <li>Contact</li>
+          <li>Espaces clients</li>
+          <li>Actualités</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Document Solution</h3>
+        <hr class='lign'>
+        <h4>Système d'Impression</h4>
+        <ul>
+          <li>Imprimantes et Multifonctions</li>
+          <li>Haut Volume</li>
+          <li>Grands formats</li>
+          <li>Arts Graphiques</li>
+        </ul>
+        <h4>Solution Applicatives</h4>
+        <ul>
+          <li>Controle des Coûts et Accès </li>
+          <li>Electronic Content Management</li>
+          <li>Mobilité</li>
+          <li>Solutions Intelligente</li>
+          <li>Imagerie Médicales</li>
+        </ul>
+        <h4>Services</h4>
+        <ul>
+          <li>Qu’est ce que le Managed Print and Document Services ?</li>
+          <li>Evaluer et optimiser</li>
+          <li>Mettre en oeuvre et conduire le changement</li>
+          <li>Gérer et Superviser</li>
+          <li>Interventions Exceptionnelles</li>
+        </ul>
+      </div>
+      <div>
+      <h3>Information Technology</h3>
+      <hr class='lign'>
+      <h4>Datacenter</h4>
+      <ul>
+        <li>Virtualisation</li>
+        <li>Réseau</li>
+        <li>Sécurité</li>
+        <li>Stockage</li>
+        <li>Sauvegarde</li>
+        <li>Plan de reprise d’activité</li>
+      </ul>
+      <h4>Digital Workplace</h4>
+      <ul>
+        <li>Communication unifiée</li>
+        <li>Portails & contenu</li>
+        <li>Messagerie & Réseaux Sociaux</li>
+        <li>Autres applications</li>
+        <li>Partage de fichiers pour le Top</li>
+        <li>Management</li>
+        <li>Affichage Dynamique</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Fourniture de bureau</h3>
+      <hr class='lign'>
+      <h4>Nos Produits</h4>
+      <h4>Nos Services</h4>
+      <h4>Mobilier de Bureau</h4>
+    </div>
+  </section>
+  <section class="social--media">
+    <hr>
+    <h4>REJOIGNEZ NOUS</h4>
+  </section>
+  <section class="copyright">
+    <hr>
+      <p>Copyright ACE-GBS 2015 | Powered by Netisse | Mentions légales | Plan du site</p>
+  </section>
+    </footer>
+  </body>
+  </html>
